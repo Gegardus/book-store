@@ -19,10 +19,12 @@ body {
 
 .header {
   display: flex;
+  align-self: flex-start;
+  margin-left: 125px;
 }
 
 .title {
-  color: #0582e2;
+  color: #103d5f;
   font-size: 35px;
 }
 
@@ -59,7 +61,7 @@ body {
 
 .add-book-btn {
   width: 100px;
-  background-color: #0c92f8;
+  background-color: #324c5f;
   color: #fff;
   font-weight: bold;
   border: none;
@@ -67,11 +69,11 @@ body {
   cursor: pointer;
 }
 
-.booklist {
+.bookList {
   color: #202020;
 }
 
-.book-container {
+.title-container {
   display: flex;
   gap: 50px;
 }
@@ -79,16 +81,24 @@ body {
 .book-title {
   color: #202020;
   font-family: "Crete Round", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.book-author {
+  color: #397fbd;
+  font-family: "Crete Round", sans-serif;
+  font-size: 14px;
 }
 
 .remove-btn {
-  color: #397fbd;
+  color: #2c4255;
   border: none;
   background-color: transparent;
   cursor: pointer;
   font-family: "Crete Round", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .category {

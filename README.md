@@ -2,7 +2,7 @@
 
 # Bookstore
 
-> "Bookstore" project lays the foundations for the Bookstore website. It is created as a React and Redux app and structured as a ducks pattern. This part of the project is also set with routing using React Router.
+> "Bookstore" project lays the foundations for the Bookstore website. It is created as a React and Redux app and structured as a ducks pattern. The project is also set with routing using React Router. In this step was configured Redux Store and written actions and reducer for adding and removing books, as well as added some UI elements to components.
 
 ![screenshot](./src/images/app_screenshot.png)
 
@@ -45,7 +45,7 @@ Feel free to check the [issues page](https://github.com/Gegardus/book-store/issu
 
 ## Acknowledgements
 
-The authors highly appreciate the help in the project from all the participants of this week's program for the timely response to all questions.
+The author highly appreciates the help in the project from all the participants of this week's program for the timely response to all questions.
 
 ## 📝 License
 
