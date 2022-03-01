@@ -1,29 +1,18 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import BookItem from './BookItem';
 
 const BookList = () => {
-  const books = [
-    {
-      title: 'The Hunger Games',
-      id: 0,
-    },
-    {
-      title: 'Dune',
-      id: 1,
-    },
-    {
-      title: 'Capital in the Twenty-First Century',
-      id: 2,
-    },
-  ];
+  const books = useSelector((state) => state.bookReducer);
   return (
     <div>
-      <h2 className="bookList"> </h2>
-      {
+      {books.length ? (
         books.map((book) => (
           <BookItem book={book} key={book.id} />
         ))
-    }
+      ) : (
+        <h3 className="bookList">There is no books!</h3>
+      )}
     </div>
   );
 };
