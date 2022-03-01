@@ -2,7 +2,7 @@
 
 # Bookstore
 
-> "Bookstore" project lays the foundations for the Bookstore website. It is created as a React and Redux app and structured as a ducks pattern. The project is also set with routing using React Router. In this step was configured Redux Store and written actions and reducer for adding and removing books, as well as added some UI elements to components.
+> "Bookstore" project lays the foundations for the Bookstore website. It is created as a React and Redux app and structured as a ducks pattern. App is connected with an existing API.
 
 ![screenshot](./src/images/app_screenshot.png)
 
