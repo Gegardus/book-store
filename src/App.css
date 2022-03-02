@@ -11,21 +11,21 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: rgb(221, 217, 217);
-  margin: 50px 100px;
+  margin: 20px 20px;
   padding: 20px 10px;
   border-radius: 4px;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
 }
 
 .header {
-  display: flex;
+  margin-left: 160px;
   align-self: flex-start;
-  margin-left: 125px;
+  display: flex;
 }
 
 .title {
   color: #103d5f;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .nav-links {
@@ -41,12 +41,39 @@ body {
   color: #202020;
 }
 
+.user-icon-c {
+  position: absolute;
+  border-radius: 15px;
+  background-color: #e7dcdc;
+  height: 35px;
+  right: 150px;
+}
+
+.user-icon {
+  color: #05131d;
+  font-size: 25px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.book-container {
+  display: flex;
+  gap: 20px;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: rgb(192, 179, 179);
+  padding: 25px;
+  margin: 15px 0;
+  flex-direction: column;
+}
+
 .add-book {
   color: rgb(102, 100, 100);
 }
 
 .form {
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -55,12 +82,17 @@ body {
   width: 400px;
 }
 
+.input-author {
+  padding: 10px;
+  width: 300px;
+}
+
 .input-category {
   padding: 10px;
 }
 
 .add-book-btn {
-  width: 100px;
+  width: 130px;
   background-color: #324c5f;
   color: #fff;
   font-weight: bold;
@@ -74,8 +106,9 @@ body {
 }
 
 .title-container {
+  width: 100%;
   display: flex;
-  gap: 50px;
+  flex-direction: column;
 }
 
 .book-title {
@@ -87,9 +120,16 @@ body {
 }
 
 .book-author {
-  color: #397fbd;
+  color: #051f36;
   font-family: "Crete Round", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.book-btns {
+  display: flex;
 }
 
 .remove-btn {
@@ -101,6 +141,84 @@ body {
   font-size: 15px;
 }
 
+.progress-bar-c {
+  display: flex;
+  gap: 20px;
+}
+
+.progress-bar {
+  height: 70px;
+  width: 70px;
+}
+
+.progress-value-c {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.progress-percentage {
+  font-size: 30px;
+  margin: 0;
+  color: #121212;
+  font-weight: 500;
+}
+
+.progress-completed {
+  margin: 0;
+  margin-top: 5px;
+  color: #121212;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.update-progg-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.chapter {
+  color: #121212;
+  opacity: 0.5;
+  font-family: "Crete Round", sans-serif;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.chapterth {
+  color: #121212;
+  font-family: "Crete Round", sans-serif;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #085c83;
+}
+
+.update-progg-btn {
+  width: 150px;
+  background-color: #336388;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+}
+
 .category {
-  color: #1d97f5;
+  color: #510994;
+}
+
+@media screen and (min-width: 1080px) {
+  .book-container {
+    flex-direction: row;
+    gap: 200px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
 }
