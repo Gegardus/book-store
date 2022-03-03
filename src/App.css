@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 @import url("https://fonts.googleapis.com/css?family=Roboto Slab'");
 
-body {  
-  background-color: #f5f6fa;  
+body {
+  background-color: #f5f6fa;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   background-color: #fff;
   margin: 20px 20px;
   padding: 20px 10px;
@@ -21,14 +21,14 @@ body {
 }
 
 .header {
-  margin-left: 166px; 
+  margin-left: 166px;
   display: flex;
   align-self: flex-start;
 }
 
 .title {
   color: #0290ff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 
@@ -43,22 +43,22 @@ body {
 .nav-item {
   text-decoration: none;
   color: #121212;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .user-icon-c {
   position: absolute;
-  border-radius: 15px;  
+  border-radius: 15px;
   background-color: #e8e8e8;
   height: 35px;
   right: 150px;
   margin-top: 25px;
 }
 
-.user-icon { 
+.user-icon {
   color: #0290ff;
   font-size: 25px;
-  padding: 5px; 
+  padding: 5px;
   cursor: pointer;
 }
 
@@ -66,17 +66,17 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 150px;  
+  gap: 150px;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
-  background-color:  #fff;
+  background-color: #fff;
   padding: 25px;
-  margin: 15px 0;  
+  margin: 15px 0;
 }
 
 .add-book {
   color: #888;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .form {
@@ -100,7 +100,7 @@ body {
 }
 
 .add-book-btn {
-  width: 130px; 
+  width: 130px;
   background-color: #0290ff;
   color: #fff;
   font-weight: bold;
@@ -111,7 +111,7 @@ body {
 
 .bookList {
   color: #121212;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .title-container {
@@ -122,15 +122,15 @@ body {
 
 .book-title {
   color: #121212;
-  font-family: 'RobotoSlab', sans-serif;
-  font-size: 30px; 
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 30px;
   margin-top: 5px;
   margin-left: 5px;
 }
 
-.book-author {  
+.book-author {
   color: #4386bf;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -142,23 +142,23 @@ body {
   display: flex;
 }
 
-.remove-btn { 
+.remove-btn {
   color: #4386bf;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   font-size: 15px;
 }
 
 .progress-bar-c {
-  display: flex; 
-  gap: 20px;  
+  display: flex;
+  gap: 20px;
 }
 
 .progress-bar {
   height: 70px;
-  width: 70px; 
+  width: 70px;
 }
 
 .progress-value-c {
@@ -168,7 +168,7 @@ body {
 }
 
 .progress-percentage {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   margin: 0;
   color: #121212;
@@ -178,7 +178,7 @@ body {
 .progress-completed {
   margin: 0;
   margin-top: 5px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #121212;
   opacity: 0.5;
   font-size: 15px;
@@ -186,13 +186,13 @@ body {
 
 .update-progg-c {
   display: flex;
-  flex-direction: column;      
+  flex-direction: column;
 }
 
 .chapter {
   color: #121212;
   opacity: 0.5;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   margin: 0;
   font-size: 15px;
   font-weight: 300;
@@ -200,7 +200,7 @@ body {
 
 .chapterth {
   color: #121212;
-  font-family: 'RobotoSlab', sans-serif;
+  font-family: "RobotoSlab", sans-serif;
   margin: 0;
   margin-top: 5px;
   margin-bottom: 15px;
@@ -209,7 +209,7 @@ body {
 }
 
 .update-progg-btn {
-  width: 150px;  
+  width: 150px;
   background-color: #0290ff;
   color: #fff;
   border: none;
@@ -220,7 +220,7 @@ body {
 
 .category {
   color: #0290ff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hr {
