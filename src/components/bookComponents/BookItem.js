@@ -27,7 +27,9 @@ const BookItem = (props) => {
         </h3>
         <div className="book-btns">
           <button className="remove-btn" type="button">Comments</button>
+          <span className="button-separator">| </span>
           <button className="remove-btn" type="button" onClick={removeBookFromStore}>Remove</button>
+          <span className="button-separator">| </span>
           <button className="remove-btn" type="button">Edit</button>
         </div>
       </div>
@@ -45,6 +47,7 @@ const BookItem = (props) => {
           <p className="progress-completed">Completed</p>
         </div>
       </div>
+      <div className="line" />
       <div className="update-progg-c">
         <h2 className="chapter">CURRENT CHAPTER</h2>
         <h3 className="chapterth">
